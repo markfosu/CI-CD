@@ -13,4 +13,5 @@ jobs:
               run: |
                 echo "My first GitHub Actions Job"
                 ls -1a
-                cat dockerfile
+                cat Dockerfile
+    # added more jobs if needed
