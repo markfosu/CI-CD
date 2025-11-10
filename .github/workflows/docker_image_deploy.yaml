@@ -34,3 +34,6 @@ jobs:
 
        - name: Docker Run
          run: docker run -d -p 8080:80 ${{ env.CONTAINER_REGISTRY }}/${{ vars.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest
+
+
+        #......elmar
