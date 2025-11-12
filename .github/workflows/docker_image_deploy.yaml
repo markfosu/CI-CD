@@ -6,7 +6,7 @@ on:
     #   - feature/*  # feature/add-music, feature/updateimages
     #   - test/**    # test/ui/index, test/checkout/payment/
     branches:
-      - main
+      - demo
       
 
 env:
