@@ -20,10 +20,10 @@ jobs:
       - name: Install Sonar Scanner
         run: npm install -g sonarqube-scanner
 
-    #   - name: Run SonarQube Analysis
-    #     run: |
-    #       sonar-scanner \
-    #         -Dsonar.projectKey=markfosu \
-    #         -Dsonar.organization=Mark Fosu \
-    #         -Dsonar.host.url=https://sonarcloud.io \
-    #         -Dsonar.token=${{ secrets.SONAR_TOKEN }}
+      - name: Run SonarQube Analysis
+        run: |
+          sonar-scanner \
+            -Dsonar.projectKey=markfosu_CI-CD \
+            -Dsonar.organization=markfosu \
+            -Dsonar.host.url=https://sonarcloud.io \
+            -Dsonar.token=${{ secrets.SONAR_TOKEN }}
